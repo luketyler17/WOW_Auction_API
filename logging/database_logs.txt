@@ -1,0 +1,2 @@
+00:56:44 516 root INFO Object:: {'regionId': 1, 'itemId': 25, 'petSpeciesId': None, 'quantity': 1, 'marketValue': 158187926, 'avgSalePrice': 275752, 'salePct': 1, 'soldPerDay': 0, 'historical': 154682200, '_id': ObjectId('63c3959c70f36d3c24373415')}
+ found in region_data table -- insert attempt FAILED

@@ -22,10 +22,11 @@ def wow_item_request(item_id):
     
  
 
-access_token = secrets_wow.keys.b_get_access_token()
 
 if __name__ == '__main__':
     with open("/home/luke/Documents/wowhead_items_id.csv", "r") as iFile:
+        access_token = secrets_wow.keys.b_get_access_token()
+
         dataCSV = csv.reader(iFile)
         for row in dataCSV:
             url = f"https://us.api.blizzard.com/data/wow/item/201323?namespace=static-us&locale=en_US&access_token={access_token}"
