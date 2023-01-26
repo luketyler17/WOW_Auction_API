@@ -1,2 +1,932 @@
 00:56:44 516 root INFO Object:: {'regionId': 1, 'itemId': 25, 'petSpeciesId': None, 'quantity': 1, 'marketValue': 158187926, 'avgSalePrice': 275752, 'salePct': 1, 'soldPerDay': 0, 'historical': 154682200, '_id': ObjectId('63c3959c70f36d3c24373415')}
  found in region_data table -- insert attempt FAILED
+10:47:00 789 asyncio DEBUG Using selector: EpollSelector
+10:47:13 117 tornado.access INFO 200 GET / (::1) 0.37ms
+10:47:13 232 tornado.access WARNING 404 GET /favicon.ico (::1) 0.62ms
+10:47:43 320 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:47:43 322 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:47:44 349 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:47:49 365 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:49:59 206 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:50:43 413 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:50:44 424 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:50:49 440 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:51:02 292 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:51:02 496 asyncio DEBUG Using selector: EpollSelector
+10:51:06 363 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:51:10 178 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:51:10 878 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:51:34 998 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:51:35 192 asyncio DEBUG Using selector: EpollSelector
+10:55:28 125 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:29 150 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:34 165 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:43 194 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:55:43 390 asyncio DEBUG Using selector: EpollSelector
+10:55:45 963 asyncio DEBUG Using selector: EpollSelector
+10:55:49 511 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:57 718 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:58 734 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:55:59 304 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:00 93 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:05 110 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:16 467 tornado.access INFO 200 GET /post (::1) 0.37ms
+10:56:23 21 tornado.access INFO 304 GET / (::1) 0.44ms
+10:56:27 965 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:56:28 159 asyncio DEBUG Using selector: EpollSelector
+10:56:29 661 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:56:29 858 asyncio DEBUG Using selector: EpollSelector
+10:56:29 973 tornado.access INFO 304 GET / (::1) 0.61ms
+10:56:43 360 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:56:43 561 asyncio DEBUG Using selector: EpollSelector
+10:56:45 921 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:46 950 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:51 966 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:56:55 63 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:56:58 775 asyncio DEBUG Using selector: EpollSelector
+10:57:00 103 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:04 276 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:57:04 469 asyncio DEBUG Using selector: EpollSelector
+10:57:06 471 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:57:06 690 asyncio DEBUG Using selector: EpollSelector
+10:57:07 491 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:08 644 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:09 4 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:09 354 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:17 609 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:18 629 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:23 646 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:31 193 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:57:31 399 asyncio DEBUG Using selector: EpollSelector
+10:57:32 177 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:32 893 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:33 178 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:35 275 asyncio DEBUG Using selector: EpollSelector
+10:57:37 165 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:37 636 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:37 838 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:38 147 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:38 345 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:38 540 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:38 769 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:39 537 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:39 695 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:39 857 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:40 24 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:40 175 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:47 277 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:57:47 477 asyncio DEBUG Using selector: EpollSelector
+10:57:48 662 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:57:51 193 tornado.access INFO 304 GET /post (::1) 0.34ms
+10:57:56 979 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:57:57 161 asyncio DEBUG Using selector: EpollSelector
+10:57:59 328 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:58:00 349 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:58:05 366 tornado.application ERROR Uncaught exception
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/http1connection.py", line 276, in _read_message
+    delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/routing.py", line 268, in finish
+    self.delegate.finish()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2322, in finish
+    self.execute()
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 2344, in execute
+    self.handler = self.handler_class(
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 239, in __init__
+    self.initialize(**kwargs)  # type: ignore
+TypeError: RedirectHandler.initialize() missing 1 required positional argument: 'url'
+10:58:23 163 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:58:23 373 asyncio DEBUG Using selector: EpollSelector
+10:58:23 650 tornado.access INFO 200 GET /post (::1) 0.39ms
+10:58:30 375 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:58:30 559 asyncio DEBUG Using selector: EpollSelector
+10:58:56 561 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:58:56 749 asyncio DEBUG Using selector: EpollSelector
+10:59:10 179 tornado.general WARNING 400 GET /realm?ahId=1r&realmId=13367 (::1): Missing argument itemId
+10:59:10 180 tornado.access WARNING 400 GET /realm?ahId=1r&realmId=13367 (::1) 1.31ms
+10:59:17 616 root WARNING READ REALM DATA::: <class 'Exception'>
+10:59:17 617 tornado.access INFO 200 GET /realm?ahId=1r&itemId=13367 (::1) 0.99ms
+10:59:32 355 root WARNING READ REALM DATA::: <class 'Exception'>
+10:59:32 355 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 0.59ms
+10:59:58 751 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+10:59:58 930 asyncio DEBUG Using selector: EpollSelector
+11:00:24 932 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:00:25 141 asyncio DEBUG Using selector: EpollSelector
+11:00:29 528 root WARNING READ REALM DATA::: <class 'Exception'>
+11:00:29 529 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 0.80ms
+11:00:38 143 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:00:38 347 asyncio DEBUG Using selector: EpollSelector
+11:00:43 849 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:00:44 49 asyncio DEBUG Using selector: EpollSelector
+11:00:48 551 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:00:48 741 asyncio DEBUG Using selector: EpollSelector
+11:00:51 138 tornado.application ERROR Uncaught exception GET /realm?ahId=1&itemId=13367 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/realm?ahId=1&itemId=13367', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 1711, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py", line 19, in get
+    itemId = list(int(self.get_argument("itemId")))
+TypeError: 'int' object is not iterable
+11:00:51 139 tornado.access ERROR 500 GET /realm?ahId=1&itemId=13367 (::1) 0.77ms
+11:01:06 743 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:01:06 949 asyncio DEBUG Using selector: EpollSelector
+11:01:08 801 root WARNING READ REALM DATA::: <class 'Exception'>
+11:01:08 802 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 0.89ms
+11:01:18 951 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:01:19 157 asyncio DEBUG Using selector: EpollSelector
+11:01:19 850 root WARNING READ REALM DATA::: <class 'Exception'>
+11:01:19 850 tornado.application ERROR Uncaught exception GET /realm?ahId=1&itemId=13367 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/realm?ahId=1&itemId=13367', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 1711, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py", line 23, in get
+    self.write(returnObj)
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 843, in write
+    raise TypeError(message)
+TypeError: write() only accepts bytes, unicode, and dict objects
+11:01:19 851 tornado.access ERROR 500 GET /realm?ahId=1&itemId=13367 (::1) 1.36ms
+11:01:29 658 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:01:29 870 asyncio DEBUG Using selector: EpollSelector
+11:01:30 236 root WARNING READ REALM DATA::: <class 'Exception'>
+11:01:30 236 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 0.60ms
+11:02:01 375 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:02:01 593 asyncio DEBUG Using selector: EpollSelector
+11:02:05 229 tornado.application ERROR Uncaught exception GET /realm?ahId=1&itemId=13367 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/realm?ahId=1&itemId=13367', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 1711, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py", line 23, in get
+    self.write(json.dumps(returnObj))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cursor is not JSON serializable
+11:02:05 233 tornado.access ERROR 500 GET /realm?ahId=1&itemId=13367 (::1) 4.51ms
+11:02:53 95 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:02:53 304 asyncio DEBUG Using selector: EpollSelector
+11:02:57 784 tornado.application ERROR Uncaught exception GET /realm?ahId=1&itemId=13367 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/realm?ahId=1&itemId=13367', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 1711, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py", line 23, in get
+    self.write(json.dumps(returnObj))
+  File "/usr/lib/python3.10/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Cursor is not JSON serializable
+11:02:57 785 tornado.access ERROR 500 GET /realm?ahId=1&itemId=13367 (::1) 1.85ms
+11:03:38 807 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:03:39 19 asyncio DEBUG Using selector: EpollSelector
+11:03:45 521 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:03:45 704 asyncio DEBUG Using selector: EpollSelector
+11:03:48 740 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 47.34ms
+11:04:00 206 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:04:00 389 asyncio DEBUG Using selector: EpollSelector
+11:04:01 858 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 15.62ms
+11:04:41 393 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:04:41 599 asyncio DEBUG Using selector: EpollSelector
+11:04:42 614 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 28.54ms
+11:04:53 603 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:04:53 791 asyncio DEBUG Using selector: EpollSelector
+11:04:55 349 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 22.23ms
+11:05:50 795 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:05:51 0 asyncio DEBUG Using selector: EpollSelector
+11:06:03 4 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:06:03 230 asyncio DEBUG Using selector: EpollSelector
+11:06:05 264 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 22.58ms
+11:06:52 233 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:06:52 443 asyncio DEBUG Using selector: EpollSelector
+11:06:54 291 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 30.31ms
+11:07:18 447 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:07:18 645 asyncio DEBUG Using selector: EpollSelector
+11:07:20 399 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 19.56ms
+11:07:49 150 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:07:49 352 asyncio DEBUG Using selector: EpollSelector
+11:07:54 355 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:07:54 553 asyncio DEBUG Using selector: EpollSelector
+11:07:56 972 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 20.11ms
+11:08:55 57 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:09:41 861 asyncio DEBUG Using selector: EpollSelector
+11:09:43 854 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 28.44ms
+11:09:59 365 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:09:59 557 asyncio DEBUG Using selector: EpollSelector
+11:10:01 52 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 28.99ms
+11:10:47 63 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:10:47 266 asyncio DEBUG Using selector: EpollSelector
+11:10:49 769 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:10:49 948 asyncio DEBUG Using selector: EpollSelector
+11:10:51 451 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:10:51 645 asyncio DEBUG Using selector: EpollSelector
+11:10:52 195 root WARNING READ REALM DATA::: <class 'Exception'>
+11:10:52 195 tornado.application ERROR Uncaught exception GET /realm?ahId=1&itemId=13367 (::1)
+HTTPServerRequest(protocol='http', host='localhost:8888', method='GET', uri='/realm?ahId=1&itemId=13367', version='HTTP/1.1', remote_ip='::1')
+Traceback (most recent call last):
+  File "/home/luke/.local/lib/python3.10/site-packages/tornado/web.py", line 1711, in _execute
+    result = method(*self.path_args, **self.path_kwargs)
+  File "/home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py", line 21, in get
+    returnObj = list(db_calls.read_realm_data(adId, itemId, "itemId"))
+TypeError: 'NoneType' object is not iterable
+11:10:52 196 tornado.access ERROR 500 GET /realm?ahId=1&itemId=13367 (::1) 0.82ms
+11:11:06 649 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:11:06 853 asyncio DEBUG Using selector: EpollSelector
+11:11:07 238 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 31.21ms
+11:11:32 358 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:11:32 561 asyncio DEBUG Using selector: EpollSelector
+11:11:33 409 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 26.26ms
+11:11:51 749 tornado.access INFO 200 GET /realm?ahId=1&itemId=198614 (::1) 29.70ms
+11:12:20 513 tornado.access INFO 200 GET /realm?ahId=4&itemId=198614 (::1) 13.82ms
+11:12:22 402 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 27.24ms
+11:12:41 564 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:12:41 763 asyncio DEBUG Using selector: EpollSelector
+11:12:43 379 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 26.20ms
+11:12:51 267 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:12:51 471 asyncio DEBUG Using selector: EpollSelector
+11:12:52 335 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 29.36ms
+11:13:04 475 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:13:04 663 asyncio DEBUG Using selector: EpollSelector
+11:13:05 331 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 26.06ms
+11:13:27 165 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:13:27 344 asyncio DEBUG Using selector: EpollSelector
+11:13:28 879 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 28.85ms
+11:13:33 846 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:13:34 45 asyncio DEBUG Using selector: EpollSelector
+11:13:36 956 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 29.25ms
+11:13:53 639 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 21.38ms
+11:14:13 260 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 28.48ms
+11:14:22 547 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:14:22 723 asyncio DEBUG Using selector: EpollSelector
+11:14:23 419 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 28.24ms
+11:15:10 225 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:15:10 411 asyncio DEBUG Using selector: EpollSelector
+11:15:11 416 root WARNING READ REALM DATA::: <class 'Exception'>
+11:15:11 417 tornado.access INFO 200 GET /realm?ahId=4&itemId=198614 (::1) 0.82ms
+11:15:18 413 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:15:18 608 asyncio DEBUG Using selector: EpollSelector
+11:15:18 960 tornado.access INFO 200 GET /realm?ahId=4&itemId=198614 (::1) 12.79ms
+11:17:13 612 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:17:13 815 asyncio DEBUG Using selector: EpollSelector
+11:17:24 320 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:17:24 524 asyncio DEBUG Using selector: EpollSelector
+11:17:26 470 tornado.access INFO 200 GET /realm?ahId=4&itemId=198614 (::1) 24.67ms
+11:17:28 270 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 24.16ms
+11:17:29 172 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 24.68ms
+11:17:29 660 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 24.47ms
+11:45:27 743 asyncio DEBUG Using selector: EpollSelector
+11:45:31 828 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 17.47ms
+11:46:34 246 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:46:43 14 asyncio DEBUG Using selector: EpollSelector
+11:46:44 192 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 21.72ms
+11:47:27 18 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:47:27 193 asyncio DEBUG Using selector: EpollSelector
+11:47:29 779 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 2.52ms
+11:49:42 697 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:49:42 908 asyncio DEBUG Using selector: EpollSelector
+11:49:53 274 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 2.41ms
+11:49:56 912 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:49:57 125 asyncio DEBUG Using selector: EpollSelector
+11:49:57 853 tornado.access INFO 304 GET /realm?ahId=4&itemId=198614 (::1) 24.27ms
+11:51:20 626 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:51:20 821 asyncio DEBUG Using selector: EpollSelector
+11:51:25 822 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:51:26 20 asyncio DEBUG Using selector: EpollSelector
+11:51:36 22 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:51:36 226 asyncio DEBUG Using selector: EpollSelector
+11:51:42 834 tornado.access INFO 200 GET /region?regionId=1&itemId=198614 (::1) 6.45ms
+11:51:55 728 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:51:55 925 asyncio DEBUG Using selector: EpollSelector
+11:51:57 328 tornado.access INFO 200 GET /region?regionId=1&itemId=198614 (::1) 2.97ms
+11:52:18 928 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:52:19 130 asyncio DEBUG Using selector: EpollSelector
+11:52:19 218 tornado.access INFO 200 GET /region?regionId=1&itemId=198614 (::1) 2.39ms
+11:53:09 135 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+11:53:09 341 asyncio DEBUG Using selector: EpollSelector
+11:53:10 878 tornado.access INFO 200 GET /region?regionId=1&itemId=198614 (::1) 2.69ms
+11:53:49 843 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado/hello.py modified; restarting server
+11:57:33 11 asyncio DEBUG Using selector: EpollSelector
+11:57:34 586 tornado.access INFO 200 GET /realm?ahId=4&itemId=198614 (::1) 7.02ms
+21:43:51 324 asyncio DEBUG Using selector: EpollSelector
+21:43:55 577 tornado.access INFO 304 GET / (::1) 0.38ms
+21:44:53 346 tornado.access INFO 200 GET /realm?ahId=1&itemId=13367 (::1) 2.77ms
+21:44:55 130 tornado.access INFO 304 GET /realm?ahId=1&itemId=13367 (::1) 2.51ms
+21:44:57 665 tornado.access INFO 200 GET /realm?ahId=4&itemId=13367 (::1) 1.96ms
+21:45:41 378 tornado.access INFO 200 GET /realm?ahId=4&itemId=933301 (::1) 2.24ms
+21:50:38 98 root WARNING READ REALM DATA::: <class 'Exception'>
+21:50:38 99 tornado.access INFO 200 GET /realm?ahId=4&itemId=933301)] (::1) 0.44ms
+21:51:03 434 root WARNING READ REALM DATA::: <class 'Exception'>
+21:51:03 434 tornado.access INFO 200 GET /realm?ahId=4&itemId=13367)];ls (::1) 0.40ms
+21:51:28 406 tornado.access INFO 304 GET /realm?ahId=4&itemId=13367 (::1) 2.55ms
+21:51:47 54 root WARNING READ REALM DATA::: <class 'Exception'>
+21:51:47 54 tornado.access INFO 200 GET /realm?ahId=4&itemId=133678972918034701928asdfjalksdfj (::1) 0.44ms
+21:52:00 528 tornado.access INFO 200 GET /realm?ahId=4&itemId=133678 (::1) 2.80ms
+21:55:30 327 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+21:55:30 513 asyncio DEBUG Using selector: EpollSelector
+21:55:31 516 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+21:55:31 713 asyncio DEBUG Using selector: EpollSelector
+21:55:32 774 tornado.access INFO 304 GET /realm?ahId=4&itemId=133678 (::1) 2.62ms
+21:55:37 205 tornado.access INFO 200 GET /realm?ahId=4&itemId=13367 (::1) 3.24ms
+21:55:48 218 tornado.general INFO /home/luke/PycharmProjects/WOW_Auction_API/tornado_server/db_calls.py modified; restarting server
+21:55:48 432 asyncio DEBUG Using selector: EpollSelector
+21:55:48 998 tornado.access INFO 200 GET /realm?ahId=4&itemId=13367 (::1) 2.11ms
+21:56:09 280 tornado.access INFO 304 GET / (::1) 0.41ms

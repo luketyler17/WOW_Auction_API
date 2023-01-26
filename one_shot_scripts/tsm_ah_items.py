@@ -89,6 +89,5 @@ if __name__ == '__main__':
     realmId = 5
     name = "Tichondrius"
     auctionHouseIdTest = 4
-    print(access_token)
     #specific_ah_all_items(auctionHouseIdTest)
     specific_region_all_items(regionId)
